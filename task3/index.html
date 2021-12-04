@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+    <div class="forms">
+        <form id="form-field">
+            <p class="heading">Create field</p>
+            <label>rows:&nbsp;</label><input type="number" id="rows" min="1" max="10">
+            <label>columns:&nbsp;</label><input type="number" id="columns" min="1" max="10">
+            <button type="submit">Generate field</button>
+        </form>
+        <form id="start">
+            <p class="heading">Set start point (must be a cell with value = 0)</p>
+            <label>row (from 1) :&nbsp;</label><input type="number" id="start-row" min="1" max="10">
+            <label>column (from 1):&nbsp;</label><input type="number" id="start-column" min="1" max="10">
+            <button type="submit">Set</button>`
+        </form>
+        <form id="finish">
+            <p class="heading">Set finish point (must be a cell with value = 0)</p>
+            <label>row (from 1) :&nbsp;</label><input type="number" id="finish-row" min="1" max="10">
+            <label>column (from 1):&nbsp;</label><input type="number" id="finish-column" min="1" max="10">
+            <button type="submit">Set</button>
+        </form>
+    </div>
+    <button id="go">Start</button>
+</div>
+
+<div id="field">
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
