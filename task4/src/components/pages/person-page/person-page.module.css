@@ -1,0 +1,12 @@
+.personWrapper {
+    padding: 10px;
+}
+
+.personInfoColumns {
+    display: flex;
+    margin-top: 30px;
+}
+
+.personInfoColumns > div {
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+.movieItem {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movieItem img {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.movieName {
+    font-weight: 700;
+    color: #333;
+    font-size: 25px;
+}

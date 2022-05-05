@@ -1,0 +1,12 @@
+.movieWrapper {
+    padding: 10px;
+}
+
+.movieInfoColumns {
+    display: flex;
+    margin-top: 30px;
+}
+
+.movieInfoColumns > div {
+    padding: 10px;
+}
